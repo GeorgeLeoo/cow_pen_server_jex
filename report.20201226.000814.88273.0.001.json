@@ -1,0 +1,713 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20201226.000814.88273.0.001.json",
+    "dumpEventTime": "2020-12-26T00:08:14Z",
+    "dumpEventTimeStamp": "1608912494581",
+    "processId": 88273,
+    "cwd": "/Users/georgeleeo/Documents/GitHub/cow_pen_server_koa",
+    "commandLine": [
+      "node",
+      "/usr/local/bin/supervisor",
+      "--exec",
+      "babel-node",
+      "src/index.js"
+    ],
+    "nodejsVersion": "v12.9.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "darwin",
+    "componentVersions": {
+      "node": "12.9.1",
+      "v8": "7.6.303.29-node.15",
+      "uv": "1.31.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "4",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1c",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.9.1/node-v12.9.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.9.1/node-v12.9.1.tar.gz"
+    },
+    "osName": "Darwin",
+    "osRelease": "20.2.0",
+    "osVersion": "Darwin Kernel Version 20.2.0: Wed Dec  2 20:39:59 PST 2020; root:xnu-7195.60.75~1/RELEASE_X86_64",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 32747720,
+        "nice": 0,
+        "sys": 23184170,
+        "idle": 113971400,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 2148910,
+        "nice": 0,
+        "sys": 2646600,
+        "idle": 164890320,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 28075390,
+        "nice": 0,
+        "sys": 15999340,
+        "idle": 125639470,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 2077790,
+        "nice": 0,
+        "sys": 2313700,
+        "idle": 165292600,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 21664570,
+        "nice": 0,
+        "sys": 13024770,
+        "idle": 135021460,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 2113510,
+        "nice": 0,
+        "sys": 2205160,
+        "idle": 165363620,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 19478140,
+        "nice": 0,
+        "sys": 11652110,
+        "idle": 138577190,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 2145720,
+        "nice": 0,
+        "sys": 2081540,
+        "idle": 165453230,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 15827300,
+        "nice": 0,
+        "sys": 9420230,
+        "idle": 144456530,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 2152830,
+        "nice": 0,
+        "sys": 1968520,
+        "idle": 165557320,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 14635840,
+        "nice": 0,
+        "sys": 8170040,
+        "idle": 146894810,
+        "irq": 0
+      },
+      {
+        "model": "Intel(R) Core(TM) i7-8750H CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 2147430,
+        "nice": 0,
+        "sys": 1861100,
+        "idle": 165668330,
+        "irq": 0
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "lo0",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::1",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 1
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "f0:18:98:1a:67:77",
+        "address": "fe80::10b3:1349:d0b6:36cb",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 10
+      },
+      {
+        "name": "en0",
+        "internal": false,
+        "mac": "f0:18:98:1a:67:77",
+        "address": "192.168.0.101",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "awdl0",
+        "internal": false,
+        "mac": "d6:10:ba:81:fa:09",
+        "address": "fe80::d410:baff:fe81:fa09",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "llw0",
+        "internal": false,
+        "mac": "d6:10:ba:81:fa:09",
+        "address": "fe80::d410:baff:fe81:fa09",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 12
+      },
+      {
+        "name": "utun0",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::5fd3:3a70:2f30:d6e6",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 18
+      },
+      {
+        "name": "utun1",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::a46e:b71a:a993:8fb7",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 19
+      },
+      {
+        "name": "utun2",
+        "internal": false,
+        "mac": "00:00:00:00:00:00",
+        "address": "fe80::843:4f70:8a46:6a26",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 20
+      },
+      {
+        "name": "en5",
+        "internal": false,
+        "mac": "ac:de:48:00:11:22",
+        "address": "fe80::aede:48ff:fe00:1122",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 8
+      }
+    ],
+    "host": "GeorgedeMacBook-Pro.local"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x0000000100145b9c",
+      "symbol": "report::TriggerNodeReport(v8::Isolate*, node::Environment*, char const*, char const*, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&, v8::Local<v8::String>) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000100078d1b",
+      "symbol": "node::OnFatalError(char const*, char const*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x000000010016e2a7",
+      "symbol": "v8::Utils::ReportOOMFailure(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x000000010016e243",
+      "symbol": "v8::internal::V8::FatalProcessOutOfMemory(v8::internal::Isolate*, char const*, bool) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002f18b5",
+      "symbol": "v8::internal::Heap::FatalProcessOutOfMemory(char const*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002f2fdd",
+      "symbol": "v8::internal::Heap::RecomputeLimits(v8::internal::GarbageCollector) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002efd96",
+      "symbol": "v8::internal::Heap::PerformGarbageCollection(v8::internal::GarbageCollector, v8::GCCallbackFlags) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002edcec",
+      "symbol": "v8::internal::Heap::CollectGarbage(v8::internal::AllocationSpace, v8::internal::GarbageCollectionReason, v8::GCCallbackFlags) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002f93c4",
+      "symbol": "v8::internal::Heap::AllocateRawWithLightRetry(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002f943f",
+      "symbol": "v8::internal::Heap::AllocateRawWithRetryOrFail(int, v8::internal::AllocationType, v8::internal::AllocationAlignment) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001002c79e7",
+      "symbol": "v8::internal::Factory::NewFillerObject(int, bool, v8::internal::AllocationType) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x00000001005e8217",
+      "symbol": "v8::internal::Runtime_AllocateInYoungGeneration(int, unsigned long*, v8::internal::Isolate*) [/usr/local/bin/node]"
+    },
+    {
+      "pc": "0x0000000100927b99",
+      "symbol": "Builtins_CEntry_Return1_DontSaveFPRegs_ArgvOnStack_NoBuiltinExit [/usr/local/bin/node]"
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2180325376,
+    "totalCommittedMemory": 2177030832,
+    "usedMemory": 2086839088,
+    "availableMemory": 50221152,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 31744,
+        "capacity": 261832,
+        "used": 31432,
+        "available": 230400
+      },
+      "new_space": {
+        "memorySize": 33554432,
+        "committedMemory": 31459456,
+        "capacity": 16757248,
+        "used": 1153168,
+        "available": 15604080
+      },
+      "old_space": {
+        "memorySize": 2053222400,
+        "committedMemory": 2052586824,
+        "capacity": 1993105512,
+        "used": 1992966008,
+        "available": 139504
+      },
+      "code_space": {
+        "memorySize": 425984,
+        "committedMemory": 326240,
+        "capacity": 205056,
+        "used": 205056,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 528384,
+        "committedMemory": 294536,
+        "capacity": 205200,
+        "used": 205200,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 92282880,
+        "committedMemory": 92282880,
+        "capacity": 92274768,
+        "used": 92274768,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3456,
+        "used": 3456,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 16757248,
+        "used": 0,
+        "available": 16757248
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 201.776,
+    "kernelCpuSeconds": 290.843,
+    "cpuConsumptionPercent": 337.41,
+    "maxRss": 6510809710592,
+    "pageFaults": {
+      "IORequired": 17,
+      "IONotRequired": 2880663
+    },
+    "fsActivity": {
+      "reads": 0,
+      "writes": 0
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "npm_config_save_dev": "",
+    "npm_config_legacy_bundling": "",
+    "npm_config_dry_run": "",
+    "npm_config_viewer": "man",
+    "npm_config_only": "",
+    "npm_config_commit_hooks": "true",
+    "npm_config_browser": "",
+    "npm_package_gitHead": "e54990dc0fda26db3c4def1d0fe573a0438c1ba7",
+    "SPACESHIP_VERSION": "3.11.2",
+    "npm_config_also": "",
+    "npm_package_dependencies_mongoose": "^5.7.3",
+    "npm_config_sign_git_commit": "",
+    "npm_config_rollback": "true",
+    "TERM_PROGRAM": "vscode",
+    "NODE": "/usr/local/bin/node",
+    "npm_config_usage": "",
+    "npm_config_audit": "true",
+    "INIT_CWD": "/Users/georgeleeo/Documents/GitHub/cow_pen_server_koa",
+    "npm_package_devDependencies_terser_webpack_plugin": "^2.3.4",
+    "npm_package_dependencies_nodemailer": "^6.4.2",
+    "npm_package_dependencies_moment": "^2.24.0",
+    "ANDROID_HOME": "/Users/georgeleeo/Library/Android/sdk/platform-tools",
+    "npm_config_globalignorefile": "/usr/local/etc/npmignore",
+    "npm_package_devDependencies_jest": "^26.6.3",
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/zsh",
+    "npm_config_shell": "/bin/zsh",
+    "npm_config_maxsockets": "50",
+    "npm_config_init_author_url": "",
+    "npm_package_devDependencies_rimraf": "^3.0.1",
+    "npm_config_shrinkwrap": "true",
+    "npm_config_parseable": "",
+    "npm_config_metrics_registry": "https://registry.npmjs.org/",
+    "npm_package_devDependencies_webpack_merge": "^4.2.2",
+    "npm_package_dependencies_koa": "^2.11.0",
+    "TMPDIR": "/var/folders/_d/k3n60gmx4j7dvzff5jv81dsc0000gn/T/",
+    "npm_config_timing": "",
+    "npm_config_init_license": "ISC",
+    "npm_config_if_present": "",
+    "TERM_PROGRAM_VERSION": "1.52.1",
+    "npm_package_scripts_dev": "cross-env NODE_ENV=dev nodemon --exec babel-node --inspect src/index.js",
+    "npm_config_sign_git_tag": "",
+    "npm_config_init_author_email": "",
+    "npm_config_cache_max": "Infinity",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "npm_config_preid": "",
+    "npm_config_long": "",
+    "npm_config_local_address": "",
+    "npm_config_git_tag_version": "true",
+    "npm_config_cert": "",
+    "npm_config_noproxy": "",
+    "npm_config_fetch_retries": "2",
+    "npm_config_registry": "https://registry.npmjs.org/",
+    "npm_config_home": "https://www.npmjs.org",
+    "npm_package_devDependencies_clean_webpack_plugin": "^3.0.0",
+    "npm_package_scripts_debug": "nodemon --inspect ./dist/server.bundle.js",
+    "ZSH": "/Users/georgeleeo/.oh-my-zsh",
+    "npm_config_versions": "",
+    "npm_config_message": "%s",
+    "npm_config_key": "",
+    "npm_package_readmeFilename": "README.md",
+    "npm_package_devDependencies_webpack": "^4.41.5",
+    "npm_package_dependencies_koa_json": "^2.0.2",
+    "npm_package_description": "项目规范",
+    "USER": "georgeleeo",
+    "npm_package_devDependencies_webpack_cli": "^3.3.10",
+    "npm_package_license": "ISC",
+    "COMMAND_MODE": "unix2003",
+    "npm_config_globalconfig": "/usr/local/etc/npmrc",
+    "npm_config_prefer_online": "",
+    "npm_config_logs_max": "10",
+    "npm_config_always_auth": "",
+    "npm_package_devDependencies__babel_core": "^7.8.4",
+    "npm_package_devDependencies_babel_loader": "^8.0.6",
+    "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.JDqeyaasGX/Listeners",
+    "npm_package_dependencies_koa_body": "^4.1.1",
+    "__CF_USER_TEXT_ENCODING": "0x1F5:0x19:0x34",
+    "npm_execpath": "/usr/local/lib/node_modules/npm/bin/npm-cli.js",
+    "npm_config_global_style": "",
+    "npm_config_cache_lock_retries": "10",
+    "npm_package_dependencies_bluebird": "^3.7.2",
+    "npm_config_update_notifier": "true",
+    "npm_config_cafile": "",
+    "PAGER": "less",
+    "npm_config_heading": "npm",
+    "npm_config_audit_level": "low",
+    "LSCOLORS": "Gxfxcxdxbxegedabagacad",
+    "npm_config_searchlimit": "20",
+    "npm_config_read_only": "",
+    "npm_config_offline": "",
+    "npm_config_fetch_retry_mintimeout": "10000",
+    "npm_config_json": "",
+    "npm_config_access": "",
+    "npm_config_argv": "{\"remain\":[],\"cooked\":[\"run\",\"start\"],\"original\":[\"run\",\"start\"]}",
+    "PATH": "/usr/local/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/Users/georgeleeo/Documents/GitHub/cow_pen_server_koa/node_modules/.bin:/Users/georgeleeo/Library/Android/sdk/platform-tools:/Users/georgeleeo/Library/Android/sdk/ndk-bundle:/Users/georgeleeo/Library/Android/sdk/tools:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/Users/georgeleeo/development/flutter/bin:/usr/local/Cellar/mongodb-community/4.2.0/bin:/usr/local/Cellar/mysql/8.0.17_1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin}",
+    "npm_config_allow_same_version": "",
+    "npm_config_https_proxy": "",
+    "npm_config_engine_strict": "",
+    "npm_config_description": "true",
+    "npm_package_dependencies_koa_compress": "^3.0.0",
+    "_": "/usr/local/bin/supervisor",
+    "npm_config_userconfig": "/Users/georgeleeo/.npmrc",
+    "npm_config_init_module": "/Users/georgeleeo/.npm-init.js",
+    "npm_package_dependencies_koa_helmet": "^5.2.0",
+    "npm_package_author": "",
+    "__CFBundleIdentifier": "com.microsoft.VSCode",
+    "npm_config_cidr": "",
+    "npm_package_devDependencies_webpack_node_externals": "^1.7.2",
+    "npm_package_dependencies_koa_combine_routers": "^4.0.2",
+    "PWD": "/Users/georgeleeo/Documents/GitHub/cow_pen_server_koa",
+    "npm_config_user": "",
+    "npm_config_node_version": "12.9.1",
+    "npm_lifecycle_event": "start",
+    "npm_config_save": "true",
+    "npm_config_ignore_prepublish": "",
+    "npm_config_editor": "vi",
+    "npm_config_auth_type": "legacy",
+    "npm_package_devDependencies__babel_node": "^7.8.4",
+    "npm_package_name": "cow_pen_server_koa",
+    "LANG": "en_US.UTF-8",
+    "npm_config_tag": "latest",
+    "npm_config_script_shell": "",
+    "npm_package_devDependencies__babel_preset_env": "^7.8.4",
+    "npm_package_dependencies_js_md5": "^0.7.3",
+    "npm_config_progress": "true",
+    "npm_config_global": "",
+    "npm_config_before": "",
+    "npm_package_scripts_build": "cross-env NODE_ENV=prod webpack --config config/webpack.config.prod.js",
+    "npm_package_scripts_start": "supervisor --exec babel-node src/index.js",
+    "npm_config_searchstaleness": "900",
+    "npm_config_optional": "true",
+    "npm_config_ham_it_up": "",
+    "XPC_FLAGS": "0x0",
+    "npm_config_save_prod": "",
+    "npm_config_force": "",
+    "npm_config_bin_links": "true",
+    "npm_config_searchopts": "",
+    "npm_config_node_gyp": "/usr/local/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "npm_config_depth": "Infinity",
+    "npm_package_main": "index.js",
+    "npm_config_sso_poll_frequency": "500",
+    "npm_config_rebuild_bundle": "true",
+    "npm_package_scripts_all": "npm-run-all -p watch debug",
+    "npm_package_scripts_watch": "cross-env NODE_ENV=dev webpack --watch --progress --hide-modules --config config/webpack.config.dev.js",
+    "npm_package_version": "1.0.0",
+    "SPACESHIP_ROOT": "/Users/georgeleeo/.oh-my-zsh/custom/themes/spaceship-prompt",
+    "XPC_SERVICE_NAME": "application.com.microsoft.VSCode.77385337.77385343",
+    "npm_config_unicode": "true",
+    "npm_package_dependencies_koa_router": "^8.0.6",
+    "npm_package_devDependencies_koa_jwt": "^3.6.0",
+    "ANDROID_HOME2": "/Users/georgeleeo/Library/Android/sdk/tools",
+    "SHLVL": "1",
+    "HOME": "/Users/georgeleeo",
+    "npm_config_fetch_retry_maxtimeout": "60000",
+    "npm_package_scripts_test": "jest",
+    "VSCODE_GIT_ASKPASS_MAIN": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass-main.js",
+    "npm_config_tag_version_prefix": "v",
+    "npm_config_strict_ssl": "true",
+    "npm_config_sso_type": "oauth",
+    "npm_config_scripts_prepend_node_path": "warn-only",
+    "npm_config_save_prefix": "^",
+    "npm_config_loglevel": "notice",
+    "npm_config_ca": "",
+    "npm_package_devDependencies_jsonwebtoken": "^8.5.1",
+    "npm_config_save_exact": "",
+    "npm_config_group": "20",
+    "npm_config_fetch_retry_factor": "10",
+    "npm_config_dev": "",
+    "npm_package_devDependencies_cross_env": "^7.0.0",
+    "npm_config_version": "",
+    "npm_config_prefer_offline": "",
+    "npm_config_cache_lock_stale": "60000",
+    "npm_config_otp": "",
+    "npm_config_cache_min": "10",
+    "npm_package_devDependencies_koa_compose": "^4.1.0",
+    "npm_package_dependencies_svg_captcha": "^1.4.0",
+    "npm_config_searchexclude": "",
+    "npm_config_cache": "/Users/georgeleeo/.npm",
+    "LESS": "-R",
+    "LOGNAME": "georgeleeo",
+    "npm_lifecycle_script": "supervisor --exec babel-node src/index.js",
+    "npm_config_color": "true",
+    "npm_config_proxy": "",
+    "npm_config_package_lock": "true",
+    "VSCODE_GIT_IPC_HANDLE": "/var/folders/_d/k3n60gmx4j7dvzff5jv81dsc0000gn/T/vscode-git-b14ae23744.sock",
+    "npm_config_package_lock_only": "",
+    "npm_config_fund": "true",
+    "npm_config_save_optional": "",
+    "npm_config_ignore_scripts": "",
+    "npm_config_user_agent": "npm/6.14.8 node/v12.9.1 darwin x64",
+    "npm_config_cache_lock_wait": "10000",
+    "npm_package_dependencies_koa_static": "^5.0.0",
+    "npm_package_dependencies__koa_cors": "^3.0.0",
+    "VSCODE_GIT_ASKPASS_NODE": "/Applications/Visual Studio Code.app/Contents/Frameworks/Code Helper (Renderer).app/Contents/MacOS/Code Helper (Renderer)",
+    "GIT_ASKPASS": "/Applications/Visual Studio Code.app/Contents/Resources/app/extensions/git/dist/askpass.sh",
+    "ANDROID_NDK_HOME": "/Users/georgeleeo/Library/Android/sdk/ndk-bundle",
+    "npm_config_production": "",
+    "npm_package_scripts_boot": "cnpm i || yarn || npm i",
+    "npm_config_send_metrics": "",
+    "npm_config_save_bundle": "",
+    "npm_config_umask": "0022",
+    "npm_config_node_options": "",
+    "npm_config_init_version": "1.0.0",
+    "npm_config_init_author_name": "",
+    "npm_config_git": "git",
+    "npm_config_scope": "",
+    "npm_package_scripts_clean": "rimraf dist",
+    "npm_config_unsafe_perm": "true",
+    "npm_config_tmp": "/var/folders/_d/k3n60gmx4j7dvzff5jv81dsc0000gn/T",
+    "npm_config_onload_script": "",
+    "npm_package_devDependencies_nodemon": "^2.0.2",
+    "npm_package_dependencies_redis": "^3.0.2",
+    "npm_node_execpath": "/usr/local/bin/node",
+    "npm_config_prefix": "/usr/local",
+    "npm_config_link": "",
+    "npm_config_format_package_lock": "true",
+    "COLORTERM": "truecolor"
+  },
+  "userLimits": {
+    "core_file_size_blocks": {
+      "soft": 0,
+      "hard": "unlimited"
+    },
+    "data_seg_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "file_size_blocks": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_locked_memory_bytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_memory_size_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "open_files": {
+      "soft": 1048575,
+      "hard": "unlimited"
+    },
+    "stack_size_bytes": {
+      "soft": 8388608,
+      "hard": 67104768
+    },
+    "cpu_time_seconds": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    },
+    "max_user_processes": {
+      "soft": 2784,
+      "hard": 4176
+    },
+    "virtual_memory_kbytes": {
+      "soft": "unlimited",
+      "hard": "unlimited"
+    }
+  },
+  "sharedObjects": [
+    "/usr/local/bin/node",
+    "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+    "/usr/lib/libSystem.B.dylib",
+    "/usr/lib/libc++.1.dylib",
+    "/usr/lib/libobjc.A.dylib",
+    "/usr/lib/liboah.dylib",
+    "/usr/lib/libfakelink.dylib",
+    "/usr/lib/libicucore.A.dylib",
+    "/System/Library/PrivateFrameworks/SoftLinking.framework/Versions/A/SoftLinking",
+    "/usr/lib/libc++abi.dylib",
+    "/usr/lib/system/libcache.dylib",
+    "/usr/lib/system/libcommonCrypto.dylib",
+    "/usr/lib/system/libcompiler_rt.dylib",
+    "/usr/lib/system/libcopyfile.dylib",
+    "/usr/lib/system/libcorecrypto.dylib",
+    "/usr/lib/system/libdispatch.dylib",
+    "/usr/lib/system/libdyld.dylib",
+    "/usr/lib/system/libkeymgr.dylib",
+    "/usr/lib/system/liblaunch.dylib",
+    "/usr/lib/system/libmacho.dylib",
+    "/usr/lib/system/libquarantine.dylib",
+    "/usr/lib/system/libremovefile.dylib",
+    "/usr/lib/system/libsystem_asl.dylib",
+    "/usr/lib/system/libsystem_blocks.dylib",
+    "/usr/lib/system/libsystem_c.dylib",
+    "/usr/lib/system/libsystem_collections.dylib",
+    "/usr/lib/system/libsystem_configuration.dylib",
+    "/usr/lib/system/libsystem_containermanager.dylib",
+    "/usr/lib/system/libsystem_coreservices.dylib",
+    "/usr/lib/system/libsystem_darwin.dylib",
+    "/usr/lib/system/libsystem_dnssd.dylib",
+    "/usr/lib/system/libsystem_featureflags.dylib",
+    "/usr/lib/system/libsystem_info.dylib",
+    "/usr/lib/system/libsystem_m.dylib",
+    "/usr/lib/system/libsystem_malloc.dylib",
+    "/usr/lib/system/libsystem_networkextension.dylib",
+    "/usr/lib/system/libsystem_notify.dylib",
+    "/usr/lib/system/libsystem_product_info_filter.dylib",
+    "/usr/lib/system/libsystem_sandbox.dylib",
+    "/usr/lib/system/libsystem_secinit.dylib",
+    "/usr/lib/system/libsystem_kernel.dylib",
+    "/usr/lib/system/libsystem_platform.dylib",
+    "/usr/lib/system/libsystem_pthread.dylib",
+    "/usr/lib/system/libsystem_symptoms.dylib",
+    "/usr/lib/system/libsystem_trace.dylib",
+    "/usr/lib/system/libunwind.dylib",
+    "/usr/lib/system/libxpc.dylib",
+    "/System/Library/CoreServices/Encodings/libSimplifiedChineseConverter.dylib"
+  ]
+}
